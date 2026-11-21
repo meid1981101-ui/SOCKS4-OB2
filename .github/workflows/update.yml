@@ -28,7 +28,7 @@ jobs:
           curl -s "https://api.proxyscrape.com/v3/free-proxy-list/get?request=displayproxies&protocol=socks4&proxy_format=ipport&format=text&timeout=20000" >> all.txt
           curl -s "https://raw.githubusercontent.com/databay-labs/free-proxy-list/refs/heads/master/socks4.txt" >> all.txt
           curl -s "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt" >> all.txt
-          curl -s "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/refs/heads/main/socks4_all.txt    " >> all.txt
+          curl -s "https://raw.githubusercontent.com/ClearProxy/checked-proxy-list/main/socks4/raw/all.txt" >> all.txt
           curl -s "https://raw.githubusercontent.com/ClearProxy/checked-proxy-list/main/socks4/raw/all.txt" >> all.txt
           curl -s "https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/refs/heads/main/socks4/socks4.txt" >> all.txt
           curl -s "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt" >> all.txt   
